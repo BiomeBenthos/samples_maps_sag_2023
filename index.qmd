@@ -1,0 +1,38 @@
+---
+title: "map_samples_sag_2023"
+---
+
+```{r}
+#| echo: false
+#| column: screen
+#| fig.height: 10
+
+library(mapview)
+
+# Sampling points
+dat <- read.csv("EndofauneJudithGagno_DATA_2023-07-13_0912.csv",
+                na.strings = c("NA", ""))
+done <- dat[!is.na(dat$event_datetime),]
+not_done <- dat[is.na(dat$event_datetime),]
+
+# Mapview
+## Convert stations data to sf object
+done <- sf::st_as_sf(done, 
+                     coords = c("decimal_longitude",
+                                "decimal_latitude"),
+                     crs = "EPSG:4326")
+not_done <- sf::st_as_sf(not_done, 
+                         coords = c("decimal_longitude",
+                                    "decimal_latitude"),
+                         crs = "EPSG:4326")
+
+## Make map
+map <- mapview(list(done, not_done),
+               label = c("station_id", "station_id"),
+               col.regions = c("black", "white"),
+               alpha.regions = 1,
+               layer.name = c("Complétées", "Restantes"))
+
+map
+
+```
