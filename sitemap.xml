@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://BiomeBenthos.github.io/samples_maps_sag_2023/index.html</loc>
-    <lastmod>2023-07-13T15:55:16.427Z</lastmod>
+    <loc>https://BiomeBenthos.github.io/samples_maps_sag_2023/parois.html</loc>
+    <lastmod>2023-07-21T16:44:33.427Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BiomeBenthos.github.io/samples_maps_sag_2023/endo.html</loc>
+    <lastmod>2023-07-21T16:44:40.971Z</lastmod>
   </url>
 </urlset>
