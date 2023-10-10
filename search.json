@@ -1,9 +1,23 @@
 [
   {
+    "objectID": "parois.html",
+    "href": "parois.html",
+    "title": "Échantillons 2023 projet parois Audrey-Anne",
+    "section": "",
+    "text": "The legacy packages maptools, rgdal, and rgeos, underpinning the sp package,\nwhich was just loaded, were retired in October 2023.\nPlease refer to R-spatial evolution reports for details, especially\nhttps://r-spatial.org/r/2023/05/15/evolution4.html.\nIt may be desirable to make the sf package available;\npackage maintainers should consider adding sf to Suggests:.\n\n\nLinking to GEOS 3.8.0, GDAL 3.0.4, PROJ 6.3.1; sf_use_s2() is TRUE"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Échantillonnage Saguenay 2023",
     "section": "",
     "text": "Bonjour"
+  },
+  {
+    "objectID": "endo.html",
+    "href": "endo.html",
+    "title": "Échantillons 2023 project endofaune Judith",
+    "section": "",
+    "text": "The legacy packages maptools, rgdal, and rgeos, underpinning the sp package,\nwhich was just loaded, were retired in October 2023.\nPlease refer to R-spatial evolution reports for details, especially\nhttps://r-spatial.org/r/2023/05/15/evolution4.html.\nIt may be desirable to make the sf package available;\npackage maintainers should consider adding sf to Suggests:.\n\n\nLinking to GEOS 3.8.0, GDAL 3.0.4, PROJ 6.3.1; sf_use_s2() is TRUE"
   }
 ]
